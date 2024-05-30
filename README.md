@@ -20,7 +20,7 @@ Este projeto envolve:
 3. Avaliação do modelo em novas imagens sintéticas.
 4. Visualização do processo de treinamento e resultados por meio de vários gráficos.
 
-Devido ao tamanho dos conjuntos de dados, pode ser necessário baixá-los de uma fonte externa. O conjunto de dados pode ser acessado via [WeTransfer](https://wetransfer.com).
+Devido ao tamanho dos conjuntos de dados, pode ser necessário baixá-los de uma fonte externa. O conjunto de dados pode ser acessado via [WeTransfer](https://we.tl/t-4XkTnA8MI5).
 
 ## Estrutura de Diretórios e Ficheiros
 
