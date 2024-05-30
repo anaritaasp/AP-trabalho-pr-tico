@@ -1,0 +1,1022 @@
+DenseNet121
+<class 'monai.data.meta_tensor.MetaTensor'>, torch.Size([2, 240, 240, 155]), tensor([0, 0])
+----------epoch 1/30
+epoch 1 train loss: 0.6849
+epoch 1 train accuracy: 0.5571
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.5745707154273987
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.5494220852851868
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.5531256198883057
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.575139045715332
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.5763372182846069
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.5382843613624573
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.5677692890167236
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.571208655834198
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.5737764239311218
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.5726998448371887
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.5443799495697021
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.5758903622627258
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.5473413467407227
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.5533075928688049
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.5656558871269226
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.5237182378768921
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.5728974342346191
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.5722829103469849
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.5669629573822021
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.5747425556182861
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.5701983571052551
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.5728184580802917
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.5775412917137146
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.5717085003852844
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.4824303388595581
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.5473638772964478
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.5352228879928589
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.5804011821746826
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.5809811353683472
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.5683003067970276
+current epoch: 1 current accuracy val: 0.4667 best accuracy val: 0.4667 at epoch 1
+----------epoch 2/30
+epoch 2 train loss: 0.6201
+epoch 2 train accuracy: 0.7571
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.6707451343536377
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.47036173939704895
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.45547494292259216
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.54645174741745
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.5465420484542847
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.4230479598045349
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.578486442565918
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.6019274592399597
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.6446014642715454
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.6260969042778015
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.45736029744148254
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.6660614609718323
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.4762350916862488
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.5561080574989319
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.5897559523582458
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.3103567957878113
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.7532446980476379
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.6262122988700867
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.7541518807411194
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.5571653246879578
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.6045852899551392
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.6813655495643616
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.7468474507331848
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.713649570941925
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.20624646544456482
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.4931661784648895
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.43529850244522095
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.686904788017273
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.7770494818687439
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.6926798224449158
+current epoch: 2 current accuracy val: 0.5333 best accuracy val: 0.5333 at epoch 2
+----------epoch 3/30
+epoch 3 train loss: 0.5255
+epoch 3 train accuracy: 0.8000
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.3799126446247101
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.6686236262321472
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.5954678654670715
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.2947179675102234
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.30214595794677734
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.6585875153541565
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.3419804573059082
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.25293323397636414
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.4384610056877136
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.715936005115509
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.6684229969978333
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.4302070736885071
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.6760413646697998
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.7056599855422974
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.29929080605506897
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.30067384243011475
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.8943324685096741
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.7804150581359863
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.8592442274093628
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6822062134742737
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.7797064781188965
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.8354328274726868
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.8757193088531494
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.8586876392364502
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.6479117274284363
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.7297797799110413
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.7801452875137329
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.8207040429115295
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.8948817253112793
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.8426448702812195
+current epoch: 3 current accuracy val: 0.7333 best accuracy val: 0.7333 at epoch 3
+----------epoch 4/30
+epoch 4 train loss: 0.4827
+epoch 4 train accuracy: 0.7429
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.1313372403383255
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.5339154005050659
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.3920436501502991
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.10097366571426392
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.10647846013307571
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.5196717977523804
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.09556727856397629
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.08157142996788025
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.13651001453399658
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.4947284758090973
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.5345302224159241
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.15123385190963745
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.5361143946647644
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.5408415794372559
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.10495280474424362
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.10868935286998749
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.916272759437561
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.7424875497817993
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.8693733811378479
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.5604403018951416
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.735867440700531
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.8305234909057617
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.8892502784729004
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.8650000691413879
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.6121640801429749
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.6744617223739624
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.7859131693840027
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.8073903918266296
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9145730137825012
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.8439181447029114
+current epoch: 4 current accuracy val: 0.8000 best accuracy val: 0.8000 at epoch 4
+----------epoch 5/30
+epoch 5 train loss: 0.3375
+epoch 5 train accuracy: 0.8571
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.1734376847743988
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.7404840588569641
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.628751277923584
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.11024142801761627
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.11824115365743637
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.7359740734100342
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.11610516905784607
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.07748960703611374
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.217335507273674
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.791652500629425
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.7650542855262756
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.22137175500392914
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.7447893023490906
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.7932143211364746
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.11717509478330612
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.13373953104019165
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9712950587272644
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8949329853057861
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9475846886634827
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.7674288153648376
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8916397094726562
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9385531544685364
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9615196585655212
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9524887800216675
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.815047562122345
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.852283775806427
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9157903790473938
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.926105797290802
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9703546166419983
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9434555768966675
+current epoch: 5 current accuracy val: 0.7333 best accuracy val: 0.8000 at epoch 4
+----------epoch 6/30
+epoch 6 train loss: 0.4979
+epoch 6 train accuracy: 0.7286
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.10760119557380676
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.5243499875068665
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.1509092152118683
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.11496233195066452
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.12675248086452484
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.39123356342315674
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.0682501271367073
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.06396228820085526
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.0956096425652504
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.18332026898860931
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.2467307299375534
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.11715244501829147
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.5150125622749329
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.16702169179916382
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.09050502628087997
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.08585742115974426
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9698938727378845
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8589310050010681
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9570558667182922
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6345351934432983
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8517525792121887
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9202763438224792
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9561517238616943
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9405048489570618
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.7583106756210327
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.751544713973999
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.8910554647445679
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9106752872467041
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9686679244041443
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9378199577331543
+current epoch: 6 current accuracy val: 0.9000 best accuracy val: 0.9000 at epoch 6
+----------epoch 7/30
+epoch 7 train loss: 0.3986
+epoch 7 train accuracy: 0.7857
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.10446852445602417
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.5646347403526306
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.3465971052646637
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.08380981534719467
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.09350500255823135
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.5760340690612793
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.055815208703279495
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.04603399708867073
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.10024827718734741
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.4129911959171295
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.5973119139671326
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.12999166548252106
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.5558699369430542
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.5205016732215881
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.07053819298744202
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.14517545700073242
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9712637662887573
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.863801896572113
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9467954039573669
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6231608986854553
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.860137939453125
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9242296814918518
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9544269442558289
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9431285858154297
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9163707494735718
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.8306148052215576
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9490743279457092
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9070881605148315
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9662911295890808
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9382399320602417
+current epoch: 7 current accuracy val: 0.8000 best accuracy val: 0.9000 at epoch 6
+----------epoch 8/30
+epoch 8 train loss: 0.4356
+epoch 8 train accuracy: 0.7857
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.1879418045282364
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.5637887716293335
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.3519602417945862
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.07533440738916397
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.08223222196102142
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.6341505646705627
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.09470415115356445
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.05252481997013092
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.1889820396900177
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.572374165058136
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.6751113533973694
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.21817021071910858
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.545565664768219
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.6236315965652466
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.11295486241579056
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.3057243824005127
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9630707502365112
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8459280133247375
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9205232858657837
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6104768514633179
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.809623658657074
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9105478525161743
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9403901100158691
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9299110174179077
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9634387493133545
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.8614087104797363
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.966828465461731
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.8906179070472717
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9545942544937134
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9152988791465759
+current epoch: 8 current accuracy val: 0.7667 best accuracy val: 0.9000 at epoch 6
+----------epoch 9/30
+epoch 9 train loss: 0.3759
+epoch 9 train accuracy: 0.7857
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.24658602476119995
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.46076852083206177
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.29440757632255554
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.11745258420705795
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.12806937098503113
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.4822898507118225
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.08915276825428009
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.06350784003734589
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.21894623339176178
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.6280202865600586
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.5563580989837646
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.29911038279533386
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.4327576458454132
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.5938653945922852
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.14688986539840698
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.17008289694786072
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9740952253341675
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.9005019664764404
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9449009895324707
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6647679805755615
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.872046172618866
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9390439987182617
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9592550992965698
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9523404240608215
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9627724885940552
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.8554545640945435
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9718591570854187
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9298176169395447
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9687549471855164
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9455974698066711
+current epoch: 9 current accuracy val: 0.8667 best accuracy val: 0.9000 at epoch 6
+----------epoch 10/30
+epoch 10 train loss: 0.3446
+epoch 10 train accuracy: 0.8571
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.09603815525770187
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.617313802242279
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.27549120783805847
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.053522903472185135
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.060494717210531235
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.7248142957687378
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.05073760822415352
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.03373701125383377
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.09099330008029938
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.3205213248729706
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.7614671587944031
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.08829132467508316
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.5734978318214417
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.5133997797966003
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.0913274809718132
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.49670591950416565
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9754261374473572
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8932722210884094
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9325788021087646
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6300700902938843
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8555276989936829
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9409332275390625
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9564194679260254
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9530189633369446
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9947872161865234
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.936732292175293
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9895981550216675
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9204913377761841
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9664546847343445
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9420105814933777
+current epoch: 10 current accuracy val: 0.8000 best accuracy val: 0.9000 at epoch 6
+----------epoch 11/30
+epoch 11 train loss: 0.3154
+epoch 11 train accuracy: 0.8143
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.05979425832629204
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.3062964975833893
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.11791963130235672
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.05883440747857094
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.06598176062107086
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.26793450117111206
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.02025684341788292
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.019684141501784325
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.05083201825618744
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.18000976741313934
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.2867106795310974
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.0672338455915451
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.2572755217552185
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.22340363264083862
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.05548863112926483
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.026477878913283348
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9757458567619324
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8893607258796692
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9496237635612488
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.4923017919063568
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8938422799110413
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9417821168899536
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9598427414894104
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.952506959438324
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9544461369514465
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.7646838426589966
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9527077674865723
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.920357346534729
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9700413346290588
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9580758810043335
+current epoch: 11 current accuracy val: 0.9333 best accuracy val: 0.9333 at epoch 11
+----------epoch 12/30
+epoch 12 train loss: 0.3013
+epoch 12 train accuracy: 0.8429
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.04345571622252464
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.6194003224372864
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.17826828360557556
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.04313923045992851
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.04909646883606911
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.6780606508255005
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.02370634116232395
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.0210324227809906
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.0338464118540287
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.08602605760097504
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.6310549974441528
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.040677111595869064
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.5621901154518127
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.1996477246284485
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.04963972792029381
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.3759423792362213
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9818409085273743
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.9150048494338989
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9411535859107971
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6692185401916504
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8983075618743896
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9557974338531494
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9669467210769653
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9635729789733887
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9963489770889282
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.9447402954101562
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9917421340942383
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9353209137916565
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9743959903717041
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9573405981063843
+current epoch: 12 current accuracy val: 0.8333 best accuracy val: 0.9333 at epoch 11
+----------epoch 13/30
+epoch 13 train loss: 0.3424
+epoch 13 train accuracy: 0.8286
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.06622187048196793
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.23858633637428284
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.07663531601428986
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.05781656876206398
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.06562129408121109
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.206551194190979
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.020867973566055298
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.021488459780812263
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.05534156411886215
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.15856821835041046
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.24960829317569733
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.06991992890834808
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.19492149353027344
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.17620517313480377
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.056335024535655975
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.05561986193060875
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9775911569595337
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8950293660163879
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9424742460250854
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.5515092611312866
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8522478342056274
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9436891674995422
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9623978734016418
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9560241103172302
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9636804461479187
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.7987253069877625
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9688481688499451
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9305983185768127
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9714638590812683
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9521641731262207
+current epoch: 13 current accuracy val: 0.9667 best accuracy val: 0.9667 at epoch 13
+----------epoch 14/30
+epoch 14 train loss: 0.3513
+epoch 14 train accuracy: 0.8143
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.148494690656662
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.20582643151283264
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.09038751572370529
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.09553492069244385
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.10861603915691376
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.18886053562164307
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.0381639264523983
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.03163551911711693
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.11771174520254135
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.3032856583595276
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.26292794942855835
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.17902205884456635
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.15432940423488617
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.26725369691848755
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.09799554198980331
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.0615534670650959
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9567746520042419
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.854699432849884
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9241812825202942
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.43854430317878723
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.855984091758728
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.919522225856781
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.934166431427002
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9301026463508606
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9745025038719177
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.7584482431411743
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9525744915008545
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.8936513662338257
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9469438195228577
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9374382495880127
+current epoch: 14 current accuracy val: 0.9333 best accuracy val: 0.9667 at epoch 13
+----------epoch 15/30
+epoch 15 train loss: 0.3499
+epoch 15 train accuracy: 0.8571
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.195671945810318
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.5764614939689636
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.25180038809776306
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.08569861203432083
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.09729629755020142
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.6833420395851135
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.09746648371219635
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.05218588560819626
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.1775961071252823
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.4846508204936981
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.7702162861824036
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.20975100994110107
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.4875412881374359
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.5483262538909912
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.1411552131175995
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.6641565561294556
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9677063822746277
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8956338763237
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9107996821403503
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6326079368591309
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.885970950126648
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9409971833229065
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.945854663848877
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9475292563438416
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9987753033638
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.9517196416854858
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9933769106864929
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9153318405151367
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9547507166862488
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9383097290992737
+current epoch: 15 current accuracy val: 0.8667 best accuracy val: 0.9667 at epoch 13
+----------epoch 16/30
+epoch 16 train loss: 0.4021
+epoch 16 train accuracy: 0.7429
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.05517008528113365
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.23741917312145233
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.0695018619298935
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.07653573155403137
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.0899614691734314
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.22296246886253357
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.02362455055117607
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.025368129834532738
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.043382786214351654
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.08959770947694778
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.25848081707954407
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.06836243718862534
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.1662960797548294
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.10903158783912659
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.05567788705229759
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.08459243178367615
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9499008655548096
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8447452187538147
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9097270965576172
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.4097305238246918
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8786683678627014
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9181182980537415
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9260374307632446
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9239104390144348
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9913217425346375
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.818697988986969
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9644622206687927
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.8800538182258606
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9396164417266846
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9357956647872925
+current epoch: 16 current accuracy val: 0.9333 best accuracy val: 0.9667 at epoch 13
+----------epoch 17/30
+epoch 17 train loss: 0.3151
+epoch 17 train accuracy: 0.8857
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.056600481271743774
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.1926681399345398
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.06976176798343658
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.02854999527335167
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.033627819269895554
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.20809032022953033
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.01557974237948656
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.0109521159902215
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.04748103767633438
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.2109493613243103
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.3061564266681671
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.06562630832195282
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.1436004489660263
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.22300709784030914
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.0369502417743206
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.10903438925743103
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9629141092300415
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8207184076309204
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.911994457244873
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.3919100761413574
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8272032737731934
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.917083740234375
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9393531680107117
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9286277890205383
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.993699312210083
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.8347874283790588
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9779177904129028
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.8776722550392151
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9526550769805908
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9274192452430725
+current epoch: 17 current accuracy val: 0.9333 best accuracy val: 0.9667 at epoch 13
+----------epoch 18/30
+epoch 18 train loss: 0.3722
+epoch 18 train accuracy: 0.8143
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.07843532413244247
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.6324701905250549
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.19230741262435913
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.09714435786008835
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.11241576075553894
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.7056412696838379
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.0733131542801857
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.06993052363395691
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.059055887162685394
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.10098318755626678
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.7021203637123108
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.07644212990999222
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.5230624675750732
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.18497662246227264
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.09863097965717316
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.7521849274635315
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9642019271850586
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8870131969451904
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9029343724250793
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.7298752665519714
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8464351892471313
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9317917227745056
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9408243298530579
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9378639459609985
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9986292123794556
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.9484410285949707
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9910169839859009
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9088147282600403
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9527998566627502
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9205068945884705
+current epoch: 18 current accuracy val: 0.8667 best accuracy val: 0.9667 at epoch 13
+----------epoch 19/30
+epoch 19 train loss: 0.2775
+epoch 19 train accuracy: 0.9143
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.03618135675787926
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.17934541404247284
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.034375905990600586
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.06147707626223564
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.07301948219537735
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.153708815574646
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.016818329691886902
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.020058831200003624
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.02500673197209835
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.04381857067346573
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.13082337379455566
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.0436411127448082
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.11892639100551605
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.04532003402709961
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.03594427555799484
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.07550220191478729
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9654788970947266
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8520273566246033
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9375318288803101
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.4697239398956299
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8559834361076355
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9295825958251953
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9488697052001953
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9346325993537903
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9883096218109131
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.7796840071678162
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.958687961101532
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9060289859771729
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9632174968719482
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.942400336265564
+current epoch: 19 current accuracy val: 0.9333 best accuracy val: 0.9667 at epoch 13
+----------epoch 20/30
+epoch 20 train loss: 0.3058
+epoch 20 train accuracy: 0.8286
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.027876298874616623
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.1606065034866333
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.01875223033130169
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.049894265830516815
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.0599033497273922
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.16142268478870392
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.01780075393617153
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.02144092693924904
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.017428377643227577
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.021578626707196236
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.13405421376228333
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.028766468167304993
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.09433744102716446
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.024459969252347946
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.028404835611581802
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.36358052492141724
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9658210873603821
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8260830044746399
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9062196612358093
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.510188102722168
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.7738755345344543
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9150384664535522
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9434808492660522
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9240788817405701
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9954698085784912
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.8615450859069824
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9843644499778748
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.896356999874115
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.960507333278656
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9136251211166382
+current epoch: 20 current accuracy val: 0.9667 best accuracy val: 0.9667 at epoch 13
+----------epoch 21/30
+epoch 21 train loss: 0.3142
+epoch 21 train accuracy: 0.8429
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.03885514661669731
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.5003783702850342
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.1133352592587471
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.06976351141929626
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.08702949434518814
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.6094430685043335
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.04620480537414551
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.04537755995988846
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.030211353674530983
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.05211610347032547
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.6762776374816895
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.04477599635720253
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.3126989006996155
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.11801595240831375
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.058769725263118744
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.7468581199645996
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9452086687088013
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8294356465339661
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.8949559330940247
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.582665205001831
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.869988739490509
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9222581386566162
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9226241111755371
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9158188700675964
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9993682503700256
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.9509347081184387
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9902238249778748
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.8826462030410767
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9411521553993225
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9129836559295654
+current epoch: 21 current accuracy val: 0.9000 best accuracy val: 0.9667 at epoch 13
+----------epoch 22/30
+epoch 22 train loss: 0.2944
+epoch 22 train accuracy: 0.8714
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.056651268154382706
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.262093186378479
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.07536572217941284
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.06499660015106201
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.08091617375612259
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.2970346510410309
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.03196358680725098
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.02808375284075737
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.049217306077480316
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.12476740777492523
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.44070887565612793
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.06616432219743729
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.16409963369369507
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.14972172677516937
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.06076702103018761
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.5311394929885864
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9713457822799683
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8963156342506409
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9275288581848145
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.695715606212616
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.9001396298408508
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9485400319099426
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9587189555168152
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.949783980846405
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.998316764831543
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.9339745044708252
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9858168959617615
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9380843043327332
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.971402108669281
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9445565938949585
+current epoch: 22 current accuracy val: 1.0000 best accuracy val: 1.0000 at epoch 22
+----------epoch 23/30
+epoch 23 train loss: 0.2808
+epoch 23 train accuracy: 0.8857
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.01649605669081211
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.07327188551425934
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.013919627293944359
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.023100720718503
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.02911778725683689
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.07997708022594452
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.006993347313255072
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.0074307601898908615
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.011043881997466087
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.02075120620429516
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.12228481471538544
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.018892541527748108
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.0407906249165535
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.025563454255461693
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.019898923113942146
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.19075216352939606
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9578577876091003
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.7938735485076904
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9064369201660156
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.3640231490135193
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8314270973205566
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9085350632667542
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9315691590309143
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9135990738868713
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9969147443771362
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.8400462865829468
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.978845477104187
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.889279842376709
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9563738107681274
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9196527600288391
+current epoch: 23 current accuracy val: 0.9333 best accuracy val: 1.0000 at epoch 22
+----------epoch 24/30
+epoch 24 train loss: 0.2525
+epoch 24 train accuracy: 0.8571
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.007796510122716427
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.006527670659124851
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.0017250190721824765
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.010534890927374363
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.013349173590540886
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.005133429076522589
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.001534877112135291
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.0019675076473504305
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.004713991191238165
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.00675155408680439
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.008355648256838322
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.009801951237022877
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.003824598388746381
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.0052393460646271706
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.007467736955732107
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.002875496167689562
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.8674312233924866
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.4426060616970062
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.919897198677063
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.06000089645385742
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.634418249130249
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.7534518837928772
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.8425158262252808
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.7358214259147644
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9293850660324097
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.21152377128601074
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.6902583837509155
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.6821410655975342
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.911803126335144
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.8863832354545593
+current epoch: 24 current accuracy val: 0.8667 best accuracy val: 1.0000 at epoch 22
+----------epoch 25/30
+epoch 25 train loss: 0.3719
+epoch 25 train accuracy: 0.8143
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.10381526499986649
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.23311464488506317
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.07419154793024063
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.10087695717811584
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.11924087256193161
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.24998098611831665
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.055180612951517105
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.04780399426817894
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.08513008058071136
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.10729683190584183
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.3926764726638794
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.12848392128944397
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.1396292746067047
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.12509623169898987
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.1421705186367035
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.3362759053707123
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9239387512207031
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.8741502165794373
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.8947893381118774
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6762295961380005
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.929710865020752
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9279359579086304
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9130980372428894
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9180252552032471
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9992114305496216
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.9295899868011475
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9797592759132385
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9123587608337402
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.931361973285675
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9334196448326111
+current epoch: 25 current accuracy val: 0.9667 best accuracy val: 1.0000 at epoch 22
+----------epoch 26/30
+epoch 26 train loss: 0.2459
+epoch 26 train accuracy: 0.9143
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.02987028658390045
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.0392642617225647
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.01313834823668003
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.018066810443997383
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.02154834009706974
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.053849950432777405
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.011661311611533165
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.00943598710000515
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.02254539728164673
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.052178774029016495
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.11260788142681122
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.028325896710157394
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.028986087068915367
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.051629528403282166
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.029335685074329376
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.3093477189540863
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9213913083076477
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.6120510101318359
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.8438374996185303
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.3070051372051239
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.5736350417137146
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.7954872846603394
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.867510974407196
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.8109679818153381
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9968888163566589
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.7355842590332031
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9728028178215027
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.7889490723609924
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9185119271278381
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.8034795522689819
+current epoch: 26 current accuracy val: 0.9333 best accuracy val: 1.0000 at epoch 22
+----------epoch 27/30
+epoch 27 train loss: 0.2411
+epoch 27 train accuracy: 0.8571
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.0412871427834034
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.39728042483329773
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.07565965503454208
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.04862949252128601
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.05975626781582832
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.4816739559173584
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.03641306981444359
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.029701638966798782
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.030741266906261444
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.05167752876877785
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.47672319412231445
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.044258181005716324
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.26338550448417664
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.08328042179346085
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.07138571888208389
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.5086778998374939
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9636762142181396
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.910977303981781
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9358066320419312
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.7773672938346863
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.9469385743141174
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.956851601600647
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9549192190170288
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9519380927085876
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9998570680618286
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.969109296798706
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.996100902557373
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9454762935638428
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9647991061210632
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9536256194114685
+current epoch: 27 current accuracy val: 1.0000 best accuracy val: 1.0000 at epoch 22
+----------epoch 28/30
+epoch 28 train loss: 0.3161
+epoch 28 train accuracy: 0.9286
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.0368221290409565
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.03898821771144867
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.014385911636054516
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.032137129455804825
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.0383039228618145
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.03768157958984375
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.01608051173388958
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.015169602818787098
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.028373735025525093
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.040885645896196365
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.06706037372350693
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.04150710254907608
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.02470311149954796
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.027753638103604317
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.04786572605371475
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.07615213096141815
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9167836308479309
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.7780829668045044
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.8773728013038635
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.5356279015541077
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.7606046199798584
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.867476761341095
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.8943270444869995
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.8626807332038879
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9869062304496765
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.701492428779602
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9251278638839722
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.8834336400032043
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9319446682929993
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.876900851726532
+current epoch: 28 current accuracy val: 0.9667 best accuracy val: 1.0000 at epoch 22
+----------epoch 29/30
+epoch 29 train loss: 0.2545
+epoch 29 train accuracy: 0.9571
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.08260652422904968
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.2605442702770233
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.06642404943704605
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.06101285666227341
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.07481919229030609
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.34705284237861633
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.058741744607686996
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.0421377457678318
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.06703375279903412
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.09635335952043533
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.5702562928199768
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.08923714607954025
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.14789548516273499
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.10545092821121216
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.1332041621208191
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.7305266261100769
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9560145735740662
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.9076967239379883
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.9037907719612122
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.8341264724731445
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.8941097259521484
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.9404999613761902
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.9375781416893005
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.9327592253684998
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9997665286064148
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.9613706469535828
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9943796992301941
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.9409483075141907
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9568663239479065
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.9203794598579407
+current epoch: 29 current accuracy val: 0.9667 best accuracy val: 1.0000 at epoch 22
+----------epoch 30/30
+epoch 30 train loss: 0.2969
+epoch 30 train accuracy: 0.8571
+Filename: synt_BraTS-GLI-00048-001_0000.nii.gz, Label: 0, Probability: 0.059173569083213806
+Filename: synt_BraTS-GLI-00051-000_0000.nii.gz, Label: 0, Probability: 0.16483718156814575
+Filename: synt_BraTS-GLI-00052-000_0000.nii.gz, Label: 0, Probability: 0.05830338969826698
+Filename: synt_BraTS-GLI-00053-000_0000.nii.gz, Label: 0, Probability: 0.037562303245067596
+Filename: synt_BraTS-GLI-00053-001_0000.nii.gz, Label: 0, Probability: 0.044714488089084625
+Filename: synt_BraTS-GLI-00054-000_0000.nii.gz, Label: 0, Probability: 0.24176262319087982
+Filename: synt_BraTS-GLI-00056-000_0000.nii.gz, Label: 0, Probability: 0.04769958555698395
+Filename: synt_BraTS-GLI-00056-001_0000.nii.gz, Label: 0, Probability: 0.029155680909752846
+Filename: synt_BraTS-GLI-00058-000_0000.nii.gz, Label: 0, Probability: 0.04764708876609802
+Filename: synt_BraTS-GLI-00058-001_0000.nii.gz, Label: 0, Probability: 0.10499302297830582
+Filename: synt_BraTS-GLI-00059-000_0000.nii.gz, Label: 0, Probability: 0.40742409229278564
+Filename: synt_BraTS-GLI-00059-001_0000.nii.gz, Label: 0, Probability: 0.047282859683036804
+Filename: synt_BraTS-GLI-00061-000_0000.nii.gz, Label: 0, Probability: 0.10907914489507675
+Filename: synt_BraTS-GLI-00061-001_0000.nii.gz, Label: 0, Probability: 0.14191246032714844
+Filename: synt_BraTS-GLI-00062-000_0000.nii.gz, Label: 0, Probability: 0.08468475192785263
+Filename: BraTS-GLI-00048-001_0000.nii.gz, Label: 1, Probability: 0.6038865447044373
+Filename: BraTS-GLI-00051-000_0000.nii.gz, Label: 1, Probability: 0.9370366334915161
+Filename: BraTS-GLI-00052-000_0000.nii.gz, Label: 1, Probability: 0.7635615468025208
+Filename: BraTS-GLI-00053-000_0000.nii.gz, Label: 1, Probability: 0.8510851263999939
+Filename: BraTS-GLI-00053-001_0000.nii.gz, Label: 1, Probability: 0.6402482390403748
+Filename: BraTS-GLI-00054-000_0000.nii.gz, Label: 1, Probability: 0.6780194044113159
+Filename: BraTS-GLI-00056-000_0000.nii.gz, Label: 1, Probability: 0.8523313999176025
+Filename: BraTS-GLI-00056-001_0000.nii.gz, Label: 1, Probability: 0.8865765929222107
+Filename: BraTS-GLI-00058-000_0000.nii.gz, Label: 1, Probability: 0.8534494042396545
+Filename: BraTS-GLI-00058-001_0000.nii.gz, Label: 1, Probability: 0.9981970191001892
+Filename: BraTS-GLI-00059-000_0000.nii.gz, Label: 1, Probability: 0.9043304324150085
+Filename: BraTS-GLI-00059-001_0000.nii.gz, Label: 1, Probability: 0.9860848188400269
+Filename: BraTS-GLI-00061-000_0000.nii.gz, Label: 1, Probability: 0.8583598136901855
+Filename: BraTS-GLI-00061-001_0000.nii.gz, Label: 1, Probability: 0.9288482666015625
+Filename: BraTS-GLI-00062-000_0000.nii.gz, Label: 1, Probability: 0.8146536946296692
+current epoch: 30 current accuracy val: 1.0000 best accuracy val: 1.0000 at epoch 22

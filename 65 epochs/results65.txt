@@ -1,0 +1,24 @@
+Good Images:
+
+Bad Images:
+synt_BraTS-GLI-00051-000_0000.nii.gz
+synt_BraTS-GLI-00052-000_0000.nii.gz
+synt_BraTS-GLI-00053-000_0000.nii.gz
+synt_BraTS-GLI-00053-001_0000.nii.gz
+synt_BraTS-GLI-00054-000_0000.nii.gz
+synt_BraTS-GLI-00058-000_0000.nii.gz
+synt_BraTS-GLI-00058-001_0000.nii.gz
+synt_BraTS-GLI-00059-000_0000.nii.gz
+synt_BraTS-GLI-00059-001_0000.nii.gz
+synt_BraTS-GLI-00061-000_0000.nii.gz
+synt_BraTS-GLI-00061-001_0000.nii.gz
+
+Very Bad Images:
+synt_BraTS-GLI-00048-001_0000.nii.gz
+synt_BraTS-GLI-00052-000_0000.nii.gz
+synt_BraTS-GLI-00053-000_0000.nii.gz
+synt_BraTS-GLI-00056-000_0000.nii.gz
+synt_BraTS-GLI-00056-001_0000.nii.gz
+synt_BraTS-GLI-00058-000_0000.nii.gz
+synt_BraTS-GLI-00059-001_0000.nii.gz
+synt_BraTS-GLI-00062-000_0000.nii.gz
