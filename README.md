@@ -79,11 +79,6 @@ O programa irá verificar se já existe um modelo treinado com o número de épo
 
 - **Modelo Inexistente**: Se um modelo com o número de épocas especificado não for encontrado, o script procederá à criação do mesmo para depois podê-lo usar na função de avaliação. Os resultados do treino, incluindo gráficos de precisão e perda, bem como outros ficheiros, serão guardados na pasta número de épocas> epochs.
 
-1. Carregar o conjunto de dados de imagens de MRI.
-2. Realizar a pré-processamento das imagens, incluindo:
-   - Redimensionamento das imagens para um tamanho padrão (por exemplo, 224x224 pixels).
-   - Normalização dos valores dos pixels.
-   - Divisão do conjunto de dados em conjuntos de treinamento, validação e teste.
 
 ## Referências
 - [MONAI Documentation](https://monai.io/documentation.html)
